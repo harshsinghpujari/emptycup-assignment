@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interior Designers</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo-img" src="./assets/logo.png" alt="image of logo">
+    <h1><strong>EmptyCup</strong></h1>
+    <img class="three-dot-img" src="./assets/three-dots-vertical 1.png" alt="three dots button">
+  </header>
+
+  <main>
+    <div class="upper-main">
+
+      <img src="./assets/contacts logo.png" alt="" class="image1">
+      <img src="./assets/gallery logo.png" alt="" class="image2">
+      <img src="./assets/map_logo.png" alt="" class="image3">
+      <!-- <img src="./assets/shortlisted log.png" alt="shortlisted filter"  -->
+       <img src="./assets/shortlisted log.png" alt="Shortlisted Filter" id="shortlist-filter" class="image4">
+
+      <img src="./assets/sort logo.png" alt="" class="image5">
+    </div>
+
+    <div id="listing-container">
+
+  <!-- Hidden card used as a template -->
+  <div class="main-container1 listing" id="template-card" data-id="0" data-shortlisted="false" style="display: none;">
+    <div class="left-part">
+      <h2 class="designer-name"></h2>
+      <img class="rating-image" src="./assets/star_rating.png" alt="rating">
+      <p class="desc-para designer-desc"></p>
+      <div class="details-conatiner">
+        <div class="txt1"><span class="number designer-projects"></span><span class="label">Projects</span></div>
+        <div class="txt2"><span class="number designer-years"></span><span class="label">Years</span></div>
+        <div class="txt3"><span class="number designer-price"></span><span class="label">Price</span></div>
+      </div>
+      <div class="phnNo">
+        <p class="phnNo-1">+91 - 984532853</p>
+        <p class="phnNo-2">+91 - 984532854</p>
+      </div>
+    </div>
+
+    <div class="vertical-line"></div>
+
+    <div class="right-part">
+      <img src="./assets/arrow-right-short 1.png" alt="" class="image2-1">
+      <p id="image2-1-p">Details</p>
+      <img src="./assets/eye-slash 1.png" alt="" class="image2-2">
+      <p id="image2-2-p">Hide</p>
+      
+      <img src="./assets/shortlisted log.png" class="image2-3 shortlist-btn" data-id="0">
+      <p id="image2-3-p">Shortlist</p>
+
+
+      <img src="./assets/exclamation-circle 1.png" alt="" class="image2-4">
+      <p id="image2-4-p">Report</p>
+    </div>
+  </div>
+</div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

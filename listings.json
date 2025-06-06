@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "name": "Epic Designs",
+    "description": "Passionate team of 4 designers working out of Bangalore.",
+    "projects": 57,
+    "years": 8,
+    "price": "$$"
+  },
+  {
+    "id": "2",
+    "name": "Studio - D3",
+    "description": "Creative studio with a strong client base.",
+    "projects": 43,
+    "years": 6,
+    "price": "$$$"
+  }
+]
